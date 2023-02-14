@@ -1,0 +1,330 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+}
+/* header design starts here */
+
+/* nav section  design starts here */
+.navbar{
+    background-color: rgba(0, 75, 102, 0.635);
+    padding: 3% 5%;
+}
+.nav-link{
+    font-size: 18px;
+}
+.navbar-nav a{
+    color: aliceblue;
+    transition: .3s;
+    margin-right: 5px;
+    padding: 4% 3%;
+}
+.navbar-nav a:hover{
+    color: white;
+    transform: scale(1.1);
+    border-radius: 5px;
+    background-color: rgb(255,0,85);
+}
+/* nav section  design ends here */
+
+/* banner section  design starts here */
+#banner-section{
+    background-color: rgb(0,75,102);
+    padding: 3% 5%;
+    font-family: 'Roboto', sans-serif;
+}
+.banner-text{
+    margin-bottom: 5px;
+}
+.banner-img img{
+    width: 500px;
+    height: auto;
+}
+.business-pra{
+    color: rgb(147, 162, 175);
+}
+.business-btn button{
+    border-radius: 50px;
+    margin-right: 20px;
+}
+/* banner section  design ends here */
+
+/* client section design starts here */
+#client-section{
+    background-color: rgb(242, 242, 245);
+}
+.client-img{
+    width: 180px;
+    height: auto;
+    transition: .3s;
+}
+.client-logo img:hover{
+    transform: scale(1.2);
+}
+/* client section design ends here */
+/* header design ends here */
+
+/* main design starts here */
+
+/* article design starts here */
+
+/* about section design starts here */
+#about-us{
+    padding: 3% 5%;
+}
+.about-text{
+    color: rgb(0,75,102);
+}
+.about-contents hr{
+    width: 40px;
+}
+.about-pra{
+    font-size: 1.1rem;
+}
+.last-point{
+    margin-bottom: 20px;
+}
+.point-btn{
+    width: 150px;
+    height: 40px;
+}
+/* about section design ends here */
+
+/* business work section design starts here */
+#business-work-section{
+    padding: 5% 4%;
+    background-color: rgb(242, 242, 245);
+}
+.business-contents h1{
+    color: rgb(0,75,102);
+}
+.business-text{
+    color: rgb(136, 139, 143);
+}
+.num{
+    margin-right: 8px;
+}
+.business-img img{
+    width: 600px;
+    height: auto;
+}
+.accordion-body{
+    font-size: 18px;
+}
+/* business work section design ends here */
+
+/* skill section design starts here */
+#skill-section{
+    padding: 5% 4%;
+}
+.skill-img img{
+    width: 600px;
+    height: auto;
+}
+.skill-text{
+    color: rgb(0,75,102);
+}
+.skill-pra{
+    color: rgb(136, 139, 143);
+}
+/* skill section design ends here */
+
+/* services section design starts here */
+#services{
+    padding: 3% 5%;
+    background-color: rgb(242, 242, 245);
+}
+.services-text{
+    color: rgb(0,75,102);
+}
+.services-contents hr{
+    width: 40px;
+}
+.services-pra{
+    font-size: 1.1rem;
+}
+.card-p{
+    padding: 15% 10%;
+}
+.card-title{
+    color: rgb(0,75,102);
+}
+.card-title:hover{
+    color: #0d6efd;;
+}
+/* services section design ends here */
+
+/* article design ends here */
+
+/* aside design starts here */
+
+/* business banner section design starts here */
+#business-banner{
+    background-image: url(/image/building.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.business-banner-contents{
+    padding: 9% 5%;
+    background-color: rgba(30, 81, 128, 0.666);
+    height: 50vh;
+}
+.banner-btn button{
+   padding: 10px 30px;
+   margin: -10px 10px;
+   border-radius: 50px;
+}
+/* business banner section design ends here */
+
+/* teams section design starts here */
+#teams{
+    padding: 3% 5%;
+}
+.teams-text{
+    color: rgb(0,75,102);
+}
+.teams-pra{
+    font-size: 1.1rem;
+}
+.teams-contents hr{
+    width: 40px;
+}
+.team-img img{
+    width: 180px;
+    height: auto;
+}
+.favicon a{
+    font-size: 22px;
+    margin-right: 10px;
+    color:rgb(0,75,102);
+}
+.team-hr{
+    width: 50px;
+}
+/* teams section design ends here */
+
+/* pricing section design starts here */
+#pricing{
+    padding: 3% 5%;
+    background-color: rgb(242, 242, 245);
+}
+.pricing-text{
+    color: rgb(0,75,102);
+}
+.pricing-contents hr{
+    width: 40px;
+}
+.card-doller{
+    color: rgb(0,75,102);
+}
+.right-point p i{
+    margin-right: 10px;
+}
+.right-point p{
+    color:rgb(136, 139, 143);
+}
+.pricing-btn button{
+    padding: 12px 30px;
+    margin: 20px 0;
+    border-radius: 50px;
+ }
+.pricing-pra{
+    font-size: 1.1rem;
+}
+/* pricing section design ends here */
+
+/* question section design starts here */
+#question{
+    padding: 3% 5%;
+    background-color: aliceblue;
+}
+.question-pra{
+    font-size: 1.1rem;
+}
+.question-text{
+    color: rgb(0,75,102);
+}
+.question-contents hr{
+    width: 40px;
+}
+.accordion2-section{
+    padding: 0 10%;
+}
+/* question section design ends here */
+
+/* contact section design starts here */
+#contact{
+    padding: 3% 5%;
+}
+.contact-pra{
+    font-size: 1.1rem;
+}
+.contact-text{
+    color: rgb(0,75,102);
+}
+.contact-contents hr{
+    width: 40px;
+}
+.contact-body{
+    padding: 5% 0;
+}
+.map iframe{
+    padding: 3% 5%;
+}
+form{
+    padding: 3% 1%;
+}
+.loc-pra{
+    margin-left: 10px;
+}
+.ema-pra{
+    margin-left: 10px;
+}
+.call-pra{
+    margin-left: 10px;
+}
+.track{
+    color: rgb(0,75,102); 
+}
+/* contact section design ends here */
+
+/* aside design ends here */
+
+/* main design ends here */
+
+/* footer design starts here */
+#last-info{
+    padding: 3% 5%;
+    background-color: aliceblue;
+    color:rgb(136, 139, 143);
+
+}
+.footer-text{
+    color: rgb(0,75,102); 
+}
+.use-link p:hover{
+    color: #0d6efd;
+}
+.our-services p:hover{
+    color: #0d6efd;
+}
+.company-details{
+    padding: 0 60px 0 0;
+}
+#last-section{
+    background-color: rgb(0,75,102);
+    color: white;
+}
+.last-pra{
+    padding: 1% 5%;
+}
+.last-pra p{
+    margin-top: 20px;
+}
+.com-name{
+    color:rgb(0, 255, 123) ;
+}
+/* footer design ends here */
